@@ -53,11 +53,14 @@ const FixHeader = () => {
 					width={252}
 					quality={95}
 					formats={["auto", "webp", "avif"]}
-					alt="A Gatsby astronaut"
+					alt="MediaValet logo"
 				/>
 				<nav className='navBar'>
+					<Link style={{cursor:'pointer'}} to='/blog'>
+						Blogs
+					</Link>
 					<a href="/html/">Products <FontAwesomeIcon icon={faAngleDown} size="1x" /></a>
-					<a href="/css/">Solutions <FontAwesomeIcon icon={faAngleDown} size="1x" /></a>
+					{/* <a href="/css/">Solutions <FontAwesomeIcon icon={faAngleDown} size="1x" /></a> */}
 					<a href="/js/">Resources <FontAwesomeIcon icon={faAngleDown} size="1x" /></a>
 					<a href="/python/">Partners <FontAwesomeIcon icon={faAngleDown} size="1x" /></a>
 					<a href="/python/">About Us <FontAwesomeIcon icon={faAngleDown} size="1x" /></a>

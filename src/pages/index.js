@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
@@ -41,48 +41,56 @@ const IndexPage = () => (
 				width={105}
 				quality={100}
 				formats={["auto", "webp", "avif"]}
+				alt='Client Logo'
 			/>
 			<StaticImage
 				src={`../images/2.png`}
 				width={105}
 				quality={100}
 				formats={["auto", "webp", "avif"]}
+				alt='Client Logo'
 			/>
 			<StaticImage
 				src={`../images/3.png`}
 				width={105}
 				quality={100}
 				formats={["auto", "webp", "avif"]}
+				alt='Client Logo'
 			/>
 			<StaticImage
 				src={`../images/4.png`}
 				width={105}
 				quality={100}
 				formats={["auto", "webp", "avif"]}
+				alt='Client Logo'
 			/>
 			<StaticImage
 				src={`../images/5.png`}
 				width={105}
 				quality={100}
 				formats={["auto", "webp", "avif"]}
+				alt='Client Logo'
 			/>
 			<StaticImage
 				src={`../images/6.png`}
 				width={105}
 				quality={100}
 				formats={["auto", "webp", "avif"]}
+				alt='Client Logo'
 			/>
 			<StaticImage
 				src={`../images/7.png`}
 				width={105}
 				quality={100}
 				formats={["auto", "webp", "avif"]}
+				alt='Client Logo'
 			/>
 			<StaticImage
 				src={`../images/8.png`}
 				width={105}
 				quality={100}
 				formats={["auto", "webp", "avif"]}
+				alt='Client Logo'
 			/>
 	</section>
 	<section className='gradient-background' style={{
@@ -98,18 +106,21 @@ const IndexPage = () => (
 				width={348}
 				quality={100}
 				formats={["auto", "webp", "avif"]}
+				alt='Client Logo'
 			/>
 			<StaticImage
 				src={`../images/title2.jpg`}
 				width={348}
 				quality={100}
 				formats={["auto", "webp", "avif"]}
+				alt='Client Logo'
 			/>
 			<StaticImage
 				src={`../images/title3.jpg`}
 				width={348}
 				quality={100}
 				formats={["auto", "webp", "avif"]}
+				alt='Client Logo'
 			/>
 		</div>
 	</section>
