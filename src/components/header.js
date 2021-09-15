@@ -48,13 +48,15 @@ const FixHeader = () => {
 	return(
 		<div className={`${fix ? 'fix fixHeader' : 'fixHeader'}`}>
 			<div style={{maxWidth:1140, margin:'auto', display:'flex', alignItems:'center'}}>
-				<StaticImage
-					src="../images/logo.png"
-					width={252}
-					quality={95}
-					formats={["auto", "webp", "avif"]}
-					alt="MediaValet logo"
-				/>
+				<Link to='/'>
+					<StaticImage
+						src="../images/logo.png"
+						width={252}
+						quality={95}
+						formats={["auto", "webp", "avif"]}
+						alt="MediaValet logo"
+					/>
+				</Link>
 				<nav className='navBar'>
 					<Link style={{cursor:'pointer'}} to='/blog'>
 						Blogs
