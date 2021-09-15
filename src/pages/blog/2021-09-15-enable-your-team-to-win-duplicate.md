@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Enable your team to win - Duplicate
+title: Enable your team to win
 date: 2021-09-15T10:38:51.342Z
 description: ""
 thumbnail: /img/4635737.jpg
