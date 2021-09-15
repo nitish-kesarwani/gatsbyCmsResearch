@@ -2,6 +2,6 @@
 layout: blog
 title: Test Article
 date: 2021-09-15T11:09:07.008Z
-thumbnail: /images/4635737.jpg
+thumbnail: /images/1_dzht92lxv-x99ddri5vzog.jpeg
 ---
 Let's test it!!
