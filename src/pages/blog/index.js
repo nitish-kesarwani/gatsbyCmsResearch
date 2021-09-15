@@ -36,8 +36,8 @@ const BlogIndex = () => {
                 <h1 className='container' style={{marginBottom:'60px'}}>Latest Blogs</h1>
                 <div className='container' style={{display:'flex'}}>
                 {
-                    posts && posts.map(({ node: post }) => (
-                        <div style={{padding:20,backgroundColor:'white',width:400,borderRadius:4, color:'#4a4a4a',boxShadow:'box-shadow: 0 0.5em 1em -0.125em rgb(43 37 35 / 10%), 0 0 0 1px rgb(43 37 35 / 2%)'}}>
+                    posts && posts.map(({ node: post }, index) => (
+                        <div key={index} style={{padding:20,backgroundColor:'white',width:400,borderRadius:4, color:'#4a4a4a',boxShadow:'box-shadow: 0 0.5em 1em -0.125em rgb(43 37 35 / 10%), 0 0 0 1px rgb(43 37 35 / 2%)'}}>
                             <div style={{textDecoration:'underline', fontSize:25}}>
                                 {post?.frontmatter?.title}
                             </div>
