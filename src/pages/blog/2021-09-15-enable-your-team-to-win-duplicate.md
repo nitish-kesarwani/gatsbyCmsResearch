@@ -3,7 +3,7 @@ layout: blog
 title: Enable your team to win
 date: 2021-09-15T10:38:51.342Z
 description: ""
-thumbnail: /img/4635737.jpg
+thumbnail: /images/4635737.jpg
 ---
 * Centralize your digital assets: marketing material, [video](https://www.mediavalet.com/digital-asset-management-video/), content and media, enabling your teams, agencies and partners with immediate access to resources they need to drive your business.
 
