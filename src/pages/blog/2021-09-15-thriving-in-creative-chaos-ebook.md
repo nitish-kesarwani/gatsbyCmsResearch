@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Thriving in Creative Chaos eBook
+title: Creative Chaos eBook
 date: 2021-09-15T10:50:30.257Z
 description: ""
 thumbnail: /images/jamstack-delivers-v1.jpg
